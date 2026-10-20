@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary-magenta: #ff007f;
+    --color-magenta-glow: rgba(255, 0, 127, 0.25);
+  }
+
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff007f;
+}
+
+/* Glassmorphism and Neon accents for White Theme */
+.card-white {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+}
+
+.card-white-magenta {
+  background: #ffffff;
+  border: 1.5px solid rgba(255, 0, 127, 0.35);
+  box-shadow: 0 8px 30px -4px rgba(255, 0, 127, 0.12);
+}
+
+.glow-magenta {
+  box-shadow: 0 0 25px rgba(255, 0, 127, 0.35);
+}
+
+.glow-magenta-sm {
+  box-shadow: 0 0 12px rgba(255, 0, 127, 0.2);
+}
+
+.text-gradient-magenta {
+  background: linear-gradient(135deg, #0f172a 20%, #d946ef 70%, #ff007f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

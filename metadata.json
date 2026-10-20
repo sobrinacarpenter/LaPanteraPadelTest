@@ -1,0 +1,6 @@
+{
+  "name": "La Pantera Padel",
+  "description": "Plataforma web de alto rendimiento para reserva de turnos, gestión de torneos y academia de pádel en Jovita, Córdoba.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
